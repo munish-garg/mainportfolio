@@ -1,0 +1,27 @@
+:root{
+    --primary-orange: orange;
+}
+
+.container-fluid .navbar-brand{
+    font-size: x-large;
+    /* letter-spacing: 2px; */
+    font-weight: bolder;
+}
+
+.navbar-brand > span{
+    color: red;
+}
+
+.navbar-nav .nav-link{
+    font-weight: bolder;
+}
+
+.navbar-nav > .nav-item{
+    margin-right: 0.625rem;
+    margin-left: 0.625rem;
+}
+
+.navbar-nav > .nav-item:hover, .navbar-nav > .nav-item:focus{
+    border-top: solid 0.125rem var(--primary-orange);
+}
+
