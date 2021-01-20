@@ -1,6 +1,6 @@
 {
-  "homepage": "http://munish-garg.github.io/mainportfolio",
   "name": "mainportfolio",
+  "homepage": "http://munish-garg.github.io/mainportfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
