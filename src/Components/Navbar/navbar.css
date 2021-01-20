@@ -25,3 +25,6 @@
     border-top: solid 0.125rem var(--primary-orange);
 }
 
+nav{
+    z-index: 2;
+}

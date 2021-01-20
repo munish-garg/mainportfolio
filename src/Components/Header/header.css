@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+@import url('https://fonts.google.com/specimen/Suez+One?selection.family=Coda+Caption:wght@800|Suez+One');
+
+body{
+    overflow-x: hidden !important;
+}
+
+#header-part{
+    position: relative;
+    background: url('./images/Laptop.jpg') center;
+    height: 90vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow-x: hidden;    */
+}
+
+#header-part > .outer-div{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+}
+
+.inner-div > h1{
+    text-align: center;
+    color: green;
+    font-family: 'Coda Caption', sans-serif;
+}
+
+.styles_typicalWrapper__1_Uvh{
+    font-size: 40px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Coda Caption', sans-serif;
+    font-weight: bolder;
+    color: yellow;
+}
