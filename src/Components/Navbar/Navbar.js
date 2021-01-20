@@ -7,7 +7,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () =>{
     return(
         <>
-          <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+          <nav className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor:'black'}}>
             <div className="container-fluid">
                 <div className="container">
                     <a className="navbar-brand" href="#">Port<span>folio.</span></a>

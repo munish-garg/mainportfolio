@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
-@import url('https://fonts.google.com/specimen/Suez+One?selection.family=Coda+Caption:wght@800|Suez+One');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500&display=swap');
 
 body{
     overflow-x: hidden !important;
 }
 
 #header-part{
-    position: relative;
-    background: url('./images/Laptop.jpg') center;
-    height: 90vh;
+    /* position: relative; */
+    background: url('./images/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg') center;
+    height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,17 +16,19 @@ body{
 
 #header-part > .outer-div{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center !important;
 }
 
-.inner-div > h1{
+.inner-div > p{
     text-align: center;
-    color: green;
-    font-family: 'Coda Caption', sans-serif;
+    color: yellow;
+    font-family: 'Fraunces', serif;
+    font-size: 80px;
 }
 
 .styles_typicalWrapper__1_Uvh{

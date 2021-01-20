@@ -8,7 +8,7 @@ const Header = () =>{
             <header id="header-part">
                 <div className="outer-div">
                     <div className="inner-div">
-                        <h1>Myself Munish Kumar Garg</h1>
+                        <p>Myself Munish Kumar Garg</p>
                     </div>
                     <Typical
                     steps={['Student', 1000, 'Developer', 1000, 'Programmer', 1000]}
