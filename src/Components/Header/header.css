@@ -30,19 +30,23 @@ body{
     color: yellow;
     font-family: 'Fraunces', serif;
     font-size: 70px;
+    margin-top: 20px;
 }
 
 .styles_typicalWrapper__1_Uvh{
-    font-size: 40px;
+    font-size: 50px;
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-family: 'Coda Caption', sans-serif;
     font-weight: bolder;
     color: yellow;
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:1000px){
     .inner-div > p{
-        font-size: 40px;
-        margin-top: 100px;
+        font-size: 35px;
+        margin-top: 155px;
+    }
+    .styles_typicalWrapper__1_Uvh{
+        font-size: 35px;
     }
 }
