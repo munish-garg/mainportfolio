@@ -11,7 +11,7 @@ const Header = () =>{
                         <p>Myself Munish Kumar Garg</p>
                     </div>
                     <Typical
-                    steps={['Student', 1000, 'Developer', 1000, 'Programmer', 1000]}
+                    steps={['Student.', 1000, 'Developer.', 1000, 'Programmer.', 1000]}
                     loop={Infinity}
                     wrapper="div"/>
                 </div>
