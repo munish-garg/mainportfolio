@@ -74,9 +74,9 @@ function App() {
                         <li className="nav-item">
                             <a href="#" className="nav-link active" onClick={()=>setState('Certifications')}>Certifications</a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a href="https://drive.google.com/file/d/1HtDnKoEtfEocoXX_ItSg7Ih5vVXZjqFW/view?usp=sharing" className="nav-link active" target="_blank" rel="noreferrer">Resume</a>
-                        </li>
+                        </li> */}
                     </ul>
                     </div>
                 </div>
