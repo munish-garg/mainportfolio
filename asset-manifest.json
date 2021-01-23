@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mainportfolio/static/css/main.693e8503.chunk.css",
+    "main.css": "/mainportfolio/static/css/main.b18ead73.chunk.css",
     "main.js": "/mainportfolio/static/js/main.f1cb746b.chunk.js",
     "main.js.map": "/mainportfolio/static/js/main.f1cb746b.chunk.js.map",
     "runtime-main.js": "/mainportfolio/static/js/runtime-main.ccb67113.js",
@@ -12,7 +12,7 @@
     "static/js/3.843f92a0.chunk.js.map": "/mainportfolio/static/js/3.843f92a0.chunk.js.map",
     "index.html": "/mainportfolio/index.html",
     "static/css/2.150d169a.chunk.css.map": "/mainportfolio/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.693e8503.chunk.css.map": "/mainportfolio/static/css/main.693e8503.chunk.css.map",
+    "static/css/main.b18ead73.chunk.css.map": "/mainportfolio/static/css/main.b18ead73.chunk.css.map",
     "static/js/2.17346b44.chunk.js.LICENSE.txt": "/mainportfolio/static/js/2.17346b44.chunk.js.LICENSE.txt",
     "static/media/skills.css": "/mainportfolio/static/media/redux.b3b939c6.png"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.ccb67113.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.17346b44.chunk.js",
-    "static/css/main.693e8503.chunk.css",
+    "static/css/main.b18ead73.chunk.css",
     "static/js/main.f1cb746b.chunk.js"
   ]
 }
