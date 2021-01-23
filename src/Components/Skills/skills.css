@@ -1,77 +1,66 @@
 .outer-container{
     background: url('../Header/images/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg') center no-repeat;
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
     position: absolute;
     top: 0;
+    height: 100vh;
+    width: 100vw;
 }
 
 .card{
-    margin-top: 40%;
-}
-
-.card-content{
     height: 150px;
+    z-index: 3;
 }
 
-.card1{
+#card-1{
+    background: url('./images/html5.png') center no-repeat;
+    background-size: contain;
+    margin-top: 50%;
+}
+
+#card-2{
+    background: url('./images/css3.png') center no-repeat;
+    background-size: contain;
+    margin-top: 50%;
+}
+
+#card-3{
+    background: url('./images/js.png') center no-repeat;
+    background-size: contain;
+    margin-top: 50%;
+}
+
+#card-4{
+    background: url('./images/cpp.png') center no-repeat;
+    background-size: contain;
+    margin-top: 50%;
+}
+
+#card-5{
+    background: url('./images/python2.png') center no-repeat;
+    background-size: contain;
     margin-top: 10px;
 }
 
-.card-image1{
-    height: 150px;
-    background: url('./images/html5.jpg') center no-repeat;
-    background-size: cover;
-}
-
-.card-image2{
-    height: 150px;
-    background: url('./images/css3.jpg') center no-repeat;
-    background-size: cover;
-}
-
-.card-image3{
-    height: 150px;
-    background: url('./images/js.png') center no-repeat;
-    background-size: cover;
-}
-
-.card-image4{
-    height: 150px;
-    background: url('./images/C++.jpg') center no-repeat;
-    background-size: cover;
-}
-
-.card-image5{
-    height: 150px;
-    background: url('./images/python.png') center no-repeat;
+#card-6{
+    background: url('./images/react4.png') center no-repeat;
     background-size: contain;
+    margin-top: 10px;
 }
 
-.card-image6{
-    height: 150px;
-    background: url('./images/react.jpg') center no-repeat;
-    background-size: cover;
-}
-
-.card-image7{
-    height: 150px;
+#card-7{
     background: url('./images/redux.png') center no-repeat;
     background-size: contain;
+    margin-top: 10px;
 }
 
-.card-image8{
-    height: 150px;
+#card-8{
     background: url('./images/django.png') center no-repeat;
     background-size: contain;
+    margin-top: 10px;
 }
 
-.card-content1{
-    height: 150px;
-}
-
-.outer-container > h2{
-    color: white;
-    text-align: center;
+#card-1:hover{
+    background-color: white;
+    
 }
