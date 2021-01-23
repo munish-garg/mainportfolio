@@ -1,0 +1,77 @@
+.outer-container{
+    background: url('../Header/images/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg') center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+}
+
+.card{
+    margin-top: 40%;
+}
+
+.card-content{
+    height: 150px;
+}
+
+.card1{
+    margin-top: 10px;
+}
+
+.card-image1{
+    height: 150px;
+    background: url('./images/html5.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.card-image2{
+    height: 150px;
+    background: url('./images/css3.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.card-image3{
+    height: 150px;
+    background: url('./images/js.png') center no-repeat;
+    background-size: cover;
+}
+
+.card-image4{
+    height: 150px;
+    background: url('./images/C++.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.card-image5{
+    height: 150px;
+    background: url('./images/python.png') center no-repeat;
+    background-size: contain;
+}
+
+.card-image6{
+    height: 150px;
+    background: url('./images/react.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.card-image7{
+    height: 150px;
+    background: url('./images/redux.png') center no-repeat;
+    background-size: contain;
+}
+
+.card-image8{
+    height: 150px;
+    background: url('./images/django.png') center no-repeat;
+    background-size: contain;
+}
+
+.card-content1{
+    height: 150px;
+}
+
+.outer-container > h2{
+    color: white;
+    text-align: center;
+}
