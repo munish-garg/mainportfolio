@@ -60,7 +60,7 @@
     margin-top: 10px;
 }
 
-#card-1:hover{
-    background-color: white;
-    
+.card:hover{
+    transform: rotateY(90deg);
+    transition: all 0.5s ease-in-out 0s;
 }
