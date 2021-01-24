@@ -18,13 +18,15 @@ const Skills = () =>{
                 <div className="container">
                     <h2>SKILLS KNOWN TO ME ARE:</h2>
                     <div className="row">
-                        <div className="col-lg-3 border-0">
+                        <div className="col-lg-3">
                             <div className="card">
                                 <div className="card-img">
                                     <img src={html5} alt="html5"/>
                                 </div>
                                 <div className="card-content">
                                     <p>HTML5</p>
+                                    <hr/>
+                                    <p>Level: Advanced</p>
                                 </div>
                             </div>
                         </div>
@@ -35,6 +37,8 @@ const Skills = () =>{
                                 </div>
                                 <div className="card-content">
                                     <p>CSS3</p>
+                                    <hr/>
+                                    <p>Level: Advanced</p>
                                 </div>
                             </div>
                         </div>
@@ -45,6 +49,8 @@ const Skills = () =>{
                                 </div>
                                 <div className="card-content">
                                     <p>JavaScript</p>
+                                    <hr/>
+                                    <p>Level: Intermediate</p>
                                 </div>
                             </div>
                         </div>
@@ -55,6 +61,8 @@ const Skills = () =>{
                                 </div>
                                 <div className="card-content">
                                     <p>C++</p>
+                                    <hr/>
+                                    <p>Level: Advanced</p>
                                 </div>
                             </div>
                         </div>
@@ -67,6 +75,8 @@ const Skills = () =>{
                                 </div>
                                 <div className="card-content">
                                     <p>PYTHON</p>
+                                    <hr/>
+                                    <p>Level: Intermediate(For Web)</p>
                                 </div>
                             </div>
                         </div>
@@ -77,6 +87,8 @@ const Skills = () =>{
                                 </div>
                                 <div className="card-content">
                                     <p>REACT</p>
+                                    <hr/>
+                                    <p>Level: Advanced</p>
                                 </div>
                             </div>
                         </div>
@@ -87,6 +99,8 @@ const Skills = () =>{
                                 </div>
                                 <div className="card-content">
                                     <p>REDUX</p>
+                                    <hr/>
+                                    <p>Level: Beginner</p>
                                 </div>
                             </div>
                         </div>
@@ -97,6 +111,8 @@ const Skills = () =>{
                                 </div>
                                 <div className="card-content">
                                     <p>DJANGO</p>
+                                    <hr/>
+                                    <p>Level: Intermediate</p>
                                 </div>
                             </div>
                         </div>

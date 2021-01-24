@@ -27,6 +27,7 @@
     height: 180px;
     transform: rotateY(0deg);
     transition: all 0.5s ease-in-out 0s;
+    mix-blend-mode: multiply;
     /* perspective: 10px; */
 }
 
@@ -61,10 +62,23 @@
     text-align: center;
     color: white;
     font-weight: bolder;
-    box-sizing: border-box;
-    padding: 70px 0px;
 }
 
 .card:hover > .card-content{
     transform: rotateY(0deg);
+}
+
+.card  hr{
+    width: 90%;
+    background-color: white;
+}
+
+@media screen and (max-width:1000px){
+    .container > h2{
+        position: relative;
+        top: 40vh;
+    }
+    .card{
+        top: 40vh;
+    }
 }
