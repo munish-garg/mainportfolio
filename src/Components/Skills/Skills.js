@@ -18,7 +18,7 @@ const Skills = () =>{
                 <div className="container">
                     <h2>SKILLS KNOWN TO ME ARE:</h2>
                     <div className="row">
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 border-0">
                             <div className="card">
                                 <div className="card-img">
                                     <img src={html5} alt="html5"/>
@@ -26,7 +26,7 @@ const Skills = () =>{
                                 <div className="card-content"></div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 border-0">
                             <div className="card">
                                 <div className="card-img">
                                     <img src={css3} alt="css3"/>
@@ -34,7 +34,7 @@ const Skills = () =>{
                                 <div className="card-content"></div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 border-0">
                             <div className="card">
                                 <div className="card-img">
                                     <img src={js} alt="JavaScipt"/>
@@ -42,7 +42,7 @@ const Skills = () =>{
                                 <div className="card-content"></div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 border-0">
                             <div className="card">
                                 <div className="card-img">
                                     <img src={cpp} alt="C++"/>
@@ -52,7 +52,7 @@ const Skills = () =>{
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 border-0">
                             <div className="card">
                                 <div className="card-img">
                                     <img src={python2} alt="Python"/>
@@ -60,7 +60,7 @@ const Skills = () =>{
                                 <div className="card-content"></div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 border-0">
                             <div className="card">
                                 <div className="card-img">
                                     <img src={react4} alt="React"/>
@@ -68,7 +68,7 @@ const Skills = () =>{
                                 <div className="card-content"></div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 border-0">
                             <div className="card">
                                 <div className="card-img">
                                     <img src={redux} alt="Redux"/>
@@ -77,7 +77,7 @@ const Skills = () =>{
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3">
+                        <div className="col-lg-3 border-0">
                             <div className="card">
                                 <div className="card-img">
                                     <img src={django} alt="Django"/>
