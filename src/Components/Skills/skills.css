@@ -15,8 +15,7 @@
     top: 20vh;
     margin-bottom: 10px;
     z-index: 3;
-    transform: translateY(0deg);
-    transition: all 0.5s ease-in-out 0s;
+    perspective: 800px;
 }
 
 .container > h2{
@@ -26,9 +25,13 @@
 
 .card > .card-img{
     height: 180px;
-    /* width: 150px !important; */
-    /* background: transparent; */
-    background-color: rgb(300, 300, 300);
+    transform: rotateY(0deg);
+    transition: all 0.5s ease-in-out 0s;
+    /* perspective: 10px; */
+}
+
+.card:hover > .card-img{
+    transform: rotateY(90deg);
 }
 
 .card-img > img{
@@ -38,12 +41,30 @@
     background-color: transparent;
 }
 
-.card:hover{
-    transform: rotateY(90deg);
-}
-
 .container > h2{
     text-align: center;
     color: yellow;
     font-family: 'Yusei Magic', sans-serif;
+}
+
+.card-content{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    transform: rotateY(90deg);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.card-content > p{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    box-sizing: border-box;
+    padding: 70px 0px;
+}
+
+.card:hover > .card-content{
+    transform: rotateY(0deg);
 }
