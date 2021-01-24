@@ -49,7 +49,7 @@ function App() {
         }
       }}
       />
-      <nav className="navbar navbar-expand-lg navbar-dark" style={{background:'transparent'}}>
+      <nav className="navbar fixed-top navbar-expand-lg navbar-dark" style={{background:'transparent'}}>
             <div className="container-fluid">
                 <div className="container">
                     <a className="navbar-brand" href="#">Port<span>folio.</span></a>

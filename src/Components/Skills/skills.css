@@ -29,6 +29,7 @@
     transition: all 0.5s ease-in-out 0s;
     mix-blend-mode: multiply;
     /* perspective: 10px; */
+    background: linear-gradient(to right, #c94b4b, #4b134f);
 }
 
 .card:hover > .card-img{
@@ -53,14 +54,14 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: linear-gradient(to right, #FC466B, #3F5EFB);
     transform: rotateY(90deg);
     transition: all 0.5s ease-in-out 0s;
 }
 
 .card-content > p{
     text-align: center;
-    color: white;
+    color: yellow;
     font-weight: bolder;
 }
 
@@ -80,5 +81,10 @@
     }
     .card{
         top: 40vh;
+    }
+    .outer-container{
+        background: url('../Header/images/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg') center repeat;
+        background-size: cover;
+        background-attachment: fixed;
     }
 }
