@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/mainportfolio/static/css/main.e616f5e4.chunk.css",
-    "main.js": "/mainportfolio/static/js/main.1807c10b.chunk.js",
-    "main.js.map": "/mainportfolio/static/js/main.1807c10b.chunk.js.map",
+    "main.css": "/mainportfolio/static/css/main.64d6e08f.chunk.css",
+    "main.js": "/mainportfolio/static/js/main.162a41dc.chunk.js",
+    "main.js.map": "/mainportfolio/static/js/main.162a41dc.chunk.js.map",
     "runtime-main.js": "/mainportfolio/static/js/runtime-main.c4374365.js",
     "runtime-main.js.map": "/mainportfolio/static/js/runtime-main.c4374365.js.map",
     "static/css/2.cefcc735.chunk.css": "/mainportfolio/static/css/2.cefcc735.chunk.css",
-    "static/js/2.f1e17c6b.chunk.js": "/mainportfolio/static/js/2.f1e17c6b.chunk.js",
-    "static/js/2.f1e17c6b.chunk.js.map": "/mainportfolio/static/js/2.f1e17c6b.chunk.js.map",
+    "static/js/2.f53919d0.chunk.js": "/mainportfolio/static/js/2.f53919d0.chunk.js",
+    "static/js/2.f53919d0.chunk.js.map": "/mainportfolio/static/js/2.f53919d0.chunk.js.map",
     "static/js/3.93aba43e.chunk.js": "/mainportfolio/static/js/3.93aba43e.chunk.js",
     "static/js/3.93aba43e.chunk.js.map": "/mainportfolio/static/js/3.93aba43e.chunk.js.map",
     "index.html": "/mainportfolio/index.html",
     "static/css/2.cefcc735.chunk.css.map": "/mainportfolio/static/css/2.cefcc735.chunk.css.map",
-    "static/css/main.e616f5e4.chunk.css.map": "/mainportfolio/static/css/main.e616f5e4.chunk.css.map",
-    "static/js/2.f1e17c6b.chunk.js.LICENSE.txt": "/mainportfolio/static/js/2.f1e17c6b.chunk.js.LICENSE.txt",
+    "static/css/main.64d6e08f.chunk.css.map": "/mainportfolio/static/css/main.64d6e08f.chunk.css.map",
+    "static/js/2.f53919d0.chunk.js.LICENSE.txt": "/mainportfolio/static/js/2.f53919d0.chunk.js.LICENSE.txt",
     "static/media/cpp.e63f0afc.png": "/mainportfolio/static/media/cpp.e63f0afc.png",
     "static/media/css3.19c8605d.png": "/mainportfolio/static/media/css3.19c8605d.png",
     "static/media/django.82147cd0.png": "/mainportfolio/static/media/django.82147cd0.png",
-    "static/media/education.css": "/mainportfolio/static/media/joshua-reddekopp-GkFQEOubrCo-unsplash.06c664cf.jpg",
+    "static/media/certifications.css": "/mainportfolio/static/media/joshua-reddekopp-GkFQEOubrCo-unsplash.06c664cf.jpg",
     "static/media/js.7f875163.png": "/mainportfolio/static/media/js.7f875163.png",
     "static/media/python2.d9f5236b.png": "/mainportfolio/static/media/python2.d9f5236b.png",
     "static/media/react4.44319306.png": "/mainportfolio/static/media/react4.44319306.png",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.c4374365.js",
     "static/css/2.cefcc735.chunk.css",
-    "static/js/2.f1e17c6b.chunk.js",
-    "static/css/main.e616f5e4.chunk.css",
-    "static/js/main.1807c10b.chunk.js"
+    "static/js/2.f53919d0.chunk.js",
+    "static/css/main.64d6e08f.chunk.css",
+    "static/js/main.162a41dc.chunk.js"
   ]
 }
