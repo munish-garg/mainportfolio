@@ -4,6 +4,9 @@ import './certifications.css'
 const Certifications = () =>{
     return(
         <>
+            <div className="outer-container">
+                
+            </div>
         </>
     );
 }

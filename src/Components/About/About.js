@@ -4,6 +4,9 @@ import './about.css'
 const About = () =>{
     return(
         <>
+            <div className="outer-container">
+                
+            </div>
         </>
     );
 }
