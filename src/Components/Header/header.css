@@ -11,7 +11,7 @@ body{
     background: url('./images/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg') center;
     height: 100vh;
     width: 100vw;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     /* overflow-x: hidden;    */
 }

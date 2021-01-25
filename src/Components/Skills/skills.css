@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
-.outer-container{
+.outer-container3{
     height: 100vh;
     width: 100vw;
     position: absolute;
@@ -17,6 +17,7 @@
     z-index: 3;
     perspective: 800px;
     animation: skill-style 1.5s ease-in-out 0s;
+    background-attachment: fixed;
 }
 
 .container > h2{
@@ -85,10 +86,11 @@
         top: 40vh;
         animation: skill-style-2 1.5s ease-in-out 0s;
     }
-    .outer-container{
+    .outer-container3{
         background: url('../Header/images/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg') center repeat;
         background-size: cover;
         background-attachment: fixed;
+        height: 300vh;
     }
 }
 
@@ -120,4 +122,8 @@
     100%{
         top: 40vh;
     }   
+}
+
+.row > div{
+    background-attachment: fixed;
 }

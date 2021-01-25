@@ -14,7 +14,7 @@ import django from '../Skills/images/django.png';
 const Skills = () =>{
     return (
         <>
-            <div className="outer-container">
+            <div className="outer-container3">
                 <div className="container">
                     <h2>SKILLS KNOWN TO ME ARE:</h2>
                     <div className="row">
