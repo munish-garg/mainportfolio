@@ -16,6 +16,7 @@
     margin-bottom: 10px;
     z-index: 3;
     perspective: 800px;
+    animation: skill-style 1.5s ease-in-out 0s;
 }
 
 .container > h2{
@@ -47,6 +48,7 @@
     text-align: center;
     color: yellow;
     font-family: 'Yusei Magic', sans-serif;
+    animation: heading 1.5s ease-in-out 0s;
 }
 
 .card-content{
@@ -81,10 +83,41 @@
     }
     .card{
         top: 40vh;
+        animation: skill-style-2 1.5s ease-in-out 0s;
     }
     .outer-container{
         background: url('../Header/images/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg') center repeat;
         background-size: cover;
         background-attachment: fixed;
     }
+}
+
+@keyframes skill-style{
+    0%{
+        top: 0;
+    }
+    50%{
+        top: 30vh;
+    }
+    100%{
+        top: 20vh;
+    }
+}
+
+@keyframes heading{
+    0%{
+        transform: translateX(-50%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes skill-style-2{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 40vh;
+    }   
 }

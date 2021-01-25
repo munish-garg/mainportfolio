@@ -5,3 +5,16 @@
   z-index: 1;
   /* overscroll-behavior: inherit; */
 }
+
+nav{
+  animation: nav-animation 2s ease-in 0s;
+}
+
+@keyframes nav-animation{
+  0%{
+    transform: translateY(-100%);
+  }
+  100%{
+    transform: translateY(0%);
+  }
+}
