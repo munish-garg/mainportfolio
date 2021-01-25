@@ -1,8 +1,13 @@
-.outer-container{
+.outer-container2{
     background: url('../Header/images/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg') center no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100vw;
     position: absolute;
     top: 0;
+}
+
+.inner-container2{
+    position: relative;
+    top: 15vh;
 }
