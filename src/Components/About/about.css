@@ -6,3 +6,28 @@
     position: absolute;
     top: 0;
 }
+
+.row{
+    position: relative;
+    top: 20vh;
+    z-index: 4;
+}
+
+.row #image{
+    border-radius: 10px;
+    height: 400px;
+}
+
+.content > h4{
+    color: white;
+    text-align: center;
+}
+
+.content > ul{
+    color: white;
+    font-weight: bolder;
+}
+
+.content li{
+    list-style: none;
+}
