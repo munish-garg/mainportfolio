@@ -6,6 +6,7 @@ import './Components/Navbar/navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import {useState} from 'react';
+import {Switch, Route} from 'react-router-dom';
 
 //Header
 import Header from './Components/Header/Header';
@@ -26,7 +27,6 @@ import Education from './Components/Education/Education';
 import Certifications from './Components/Certifications/Certifications';
 
 function App() {
-  const [state, setState] = useState('null');
   return (
     <>
       <Particles
@@ -60,19 +60,19 @@ function App() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#" onClick={()=>setState('Home')}>Home</a>
+                            <a className="nav-link active" aria-current="page" href="/mainportfolio">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="#" onClick={()=>setState('About')}>About Me</a>
+                            <a className="nav-link active" href="/about">About Me</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="#" onClick={()=>setState('Education')}>Education</a>
+                            <a className="nav-link active" href="/education">Education</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" href="#" onClick={()=>setState('Skills')}>Skills</a>
+                            <a className="nav-link active" href="/skills">Skills</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className="nav-link active" onClick={()=>setState('Certifications')}>Certifications</a>
+                            <a href="/certifications" className="nav-link active">Certifications</a>
                         </li>
                         {/* <li className="nav-item">
                             <a href="https://drive.google.com/file/d/1HtDnKoEtfEocoXX_ItSg7Ih5vVXZjqFW/view?usp=sharing" className="nav-link active" target="_blank" rel="noreferrer">Resume</a>
@@ -82,17 +82,13 @@ function App() {
                 </div>
             </div>
         </nav>
-      {
-        (state === 'About')?
-        <About/>:
-        (state === 'Education')?
-        <Education/>:
-        (state === 'Skills')?
-        <Skills/>:
-        (state === 'Certifications')?
-        <Certifications/>:
-        <Header/>
-      }
+      <Switch>
+        <Route exact path='/about' component={About}/>
+        <Route exact path='/certifications' component={Certifications}/>
+        <Route exact path='/education' component={Education}/>
+        <Route exact path='/mainportfolio' component={Header}/>
+        <Route exact path='/skills' component={Skills}/>
+      </Switch>
     </>
   );
 }
