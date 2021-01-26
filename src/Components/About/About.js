@@ -7,12 +7,12 @@ const About = () =>{
         <>
             <div className="outer-container">
                 <div className="container">
-                    <div className="row">
+                    <div className="row" id="about-row">
                         <div className="col-lg-4">
                             <img src={munish} alt="Munish" className='img-fluid' id="image"/>
                         </div>
                         <div className="col-lg-8">
-                            <div className="content">
+                            <div className="content-skill">
                                 <h4>ABOUT ME</h4>
                                 <ul>
                                     <li>My name is Munish Kumar Garg and I am currently studying in 3rd year of Computer Engineering and belongs to Faridabad, Hayana.</li>

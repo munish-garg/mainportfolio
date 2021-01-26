@@ -1,13 +1,14 @@
 .outer-container{
     background: url('../Header/images/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg') center no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
     width: 100vw;
     position: absolute;
     top: 0;
 }
 
-.row{
+#about-row{
     position: relative;
     top: 20vh;
     z-index: 4;
@@ -15,19 +16,34 @@
 
 .row #image{
     border-radius: 10px;
-    height: 400px;
+    width: 96%;
 }
 
-.content > h4{
+.content-skill > h4{
     color: white;
     text-align: center;
 }
 
-.content > ul{
+.content-skill > ul{
     color: white;
     font-weight: bolder;
 }
 
-.content li{
-    list-style: none;
+.content-skill li{
+    /* list-style: none; */
+    box-sizing: border-box;
+    padding-bottom: 5px;
 }
+
+@media screen and (max-width:1000px){   
+    .outer-container{
+        height: 220vh;
+    }   
+    .content-skill > h4{
+        margin-top: 10px;
+    }
+    .row #image{
+        margin-top: 190px;
+    }
+}
+
