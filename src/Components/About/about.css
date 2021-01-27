@@ -17,6 +17,7 @@
 .row #image{
     border-radius: 10px;
     width: 96%;
+    animation: image-slide 1.75s ease-in-out 0s;
 }
 
 .content-skill > h4{
@@ -47,3 +48,24 @@
     }
 }
 
+.content-skill{
+    animation: content-slide 1.75s ease-in-out 0s;
+}
+
+@keyframes image-slide{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes content-slide{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
