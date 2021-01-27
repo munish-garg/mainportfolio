@@ -43,7 +43,7 @@ const Header = () =>{
                                 </button>
                             </div>
                             <div className="modal-body">
-                                <form onSubmit={sendEmail}>
+                                <form onSubmit={sendEmail} method="post">
                                     <div className="form-group">
                                         <label for="exampleInputname">Name</label>
                                         <input type="text" className="form-control" id="exampleInputname" aria-describedby="emailHelp" placeholder="Enter your name" name="from_name" required/>
