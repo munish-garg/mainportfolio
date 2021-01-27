@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap');
+
 .outer-container{
     background: url('../Header/images/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg') center no-repeat;
     background-size: cover;
@@ -27,13 +29,14 @@
 
 .content-skill > ul{
     color: white;
-    font-weight: bolder;
+    /* font-weight: bolder; */
 }
 
 .content-skill li{
     /* list-style: none; */
     box-sizing: border-box;
     padding-bottom: 5px;
+    font-family: 'Fraunces', serif;
 }
 
 @media screen and (max-width:1000px){   
@@ -42,9 +45,6 @@
     }   
     .content-skill > h4{
         margin-top: 10px;
-    }
-    .row #image{
-        margin-top: 190px;
     }
 }
 

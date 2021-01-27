@@ -13,40 +13,70 @@ const Certifications = () =>{
                             className="vertical-timeline-element--work"
                             contentStyle={{ background: 'transparent', color: '#fff' }}
                             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                            date="2015"
+                            date="2020"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             // icon={<WorkIcon />}
                         >
-                            <h3 className="vertical-timeline-element-title">PASSED CLASS Xth</h3>
-                            <h4 className="vertical-timeline-element-subtitle">CGPA: 10</h4>
+                            <h4 className="vertical-timeline-element-title">Certification in Frontend Development</h4>
+                            <h4 className="vertical-timeline-element-subtitle">(Coding Blocks)</h4>
                             <p>
-                            SCHOOL: VIDYA MANDIR PUBLIC SCHOOL, SECTOR 15A, FARIDABAD, HARYANA
+                            <a href="https://online.codingblocks.com/app/certificates/CBOL-70838-1ee6" target="_blank">Link for the certificate</a>
                             </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
                             contentStyle={{background:'transparent', color: '#fff'}}
                             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                            date="2017"
+                            date="2020"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             // icon={<WorkIcon />}
                         >
-                            <h3 className="vertical-timeline-element-title">PASSED CLASS XIIth</h3>
-                            <h4 className="vertical-timeline-element-subtitle">PERCENTAGE: 92.2%</h4>
+                            <h4 className="vertical-timeline-element-title">Certification in Backend Development using Django</h4>
+                            <h4 className="vertical-timeline-element-subtitle">(Coding Blocks)</h4>
                             <p>
-                            SCHOOL: VIDYA MANDIR PUBLIC SCHOOL, SECTOR 15A, FARIDABAD, HARYANA
+                            <a href="https://online.codingblocks.com/app/certificates/CBOL-55370-5540" target="_blank">Link for certificate</a>
                             </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            date="2018-PRESENT"
+                            contentStyle={{ background: 'transparent', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                            date="2020"
                             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                             // icon={<WorkIcon />}
                         >
-                            <h3 className="vertical-timeline-element-title">PURSUING B.TECH IN COMP. ENGINEERING</h3>
-                            <h4 className="vertical-timeline-element-subtitle">CGPA: 8.61(TILL 4TH SEM)</h4>
+                            <h3 className="vertical-timeline-element-title">Certifcation in REST API</h3>
+                            <h4 className="vertical-timeline-element-subtitle">(Hackerrank)</h4>
                             <p>
-                            UNIVERSITY: J.C. BOSE UNIVERSITY OF SCIENCE AND TECHNOLOGY, FARIDABAD, HARYANA
+                            <a href="https://www.hackerrank.com/certificates/39d8641b64ba" target="_blank">Link for Certificate</a>
+                            </p>
+                        </VerticalTimelineElement>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            contentStyle={{ background: 'transparent', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                            date="2020"
+                            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                            // icon={<WorkIcon />}
+                        >
+                            <h3 className="vertical-timeline-element-title">Certification in Problem Solving</h3>
+                            <h4 className="vertical-timeline-element-subtitle">(Hackerrank)</h4>
+                            <p>
+                            <a href="https://www.hackerrank.com/certificates/651aa5753b7a" target="_blank">Link for Certificate</a>
+                            </p>
+                        </VerticalTimelineElement>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element--work"
+                            contentStyle={{ background: 'transparent', color: '#fff' }}
+                            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                            date="2020"
+                            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                            // icon={<WorkIcon />}
+                        >
+                            <h3 className="vertical-timeline-element-title">Certification in Python</h3>
+                            <h4 className="vertical-timeline-element-subtitle">(Hackerrank)</h4>
+                            <p>
+                            <a href="https://www.hackerrank.com/certificates/e7cc515beec0" target="_blank">Link for Certificate</a>
                             </p>
                         </VerticalTimelineElement>
                     </VerticalTimeline>

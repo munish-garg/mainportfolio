@@ -28,9 +28,10 @@
 
 nav{
     z-index: 2;
+    background-color: black !important;
 }
- @media screen and (max-width: 1000px){
+ /* @media screen and (max-width: 1000px){
      nav{
          background-color: black !important;
      }
- }
+ } */

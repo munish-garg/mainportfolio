@@ -1,7 +1,7 @@
 .outer-container2{
     background: url('../Header/images/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg') center no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 210vh;
     width: 100vw;
     position: absolute;
     background-attachment: fixed;
@@ -11,4 +11,11 @@
 .inner-container2{
     position: relative;
     top: 15vh;
+    z-index: 5;
+}
+
+@media screen and (max-width: 1000px){
+    .outer-container2{
+        height: 220vh;
+    }
 }

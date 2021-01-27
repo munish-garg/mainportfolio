@@ -78,14 +78,14 @@
 }
 
 @media screen and (max-width:1000px){
-    .container > h2{
+    /* .container > h2{
         position: relative;
         top: 40vh;
     }
     .card{
         top: 40vh;
         animation: skill-style-2 1.5s ease-in-out 0s;
-    }
+    } */
     .outer-container3{
         background: url('../Header/images/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg') center repeat;
         background-size: cover;
