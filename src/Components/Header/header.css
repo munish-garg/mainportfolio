@@ -44,9 +44,15 @@ body{
 @media screen and (max-width:1000px){
     .inner-div > p{
         font-size: 37px;
-        margin-top: 155px;
+        margin-top: 130px;
     }
     .styles_typicalWrapper__1_Uvh{
         font-size: 30px;
     }
+}
+
+.outer-div > button{
+    z-index: 5 !important;
+    font-weight: bold;
+    text-transform: uppercase;
 }

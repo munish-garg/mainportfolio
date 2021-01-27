@@ -60,7 +60,7 @@ function App() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="/mainportfolio">Home</a>
+                            <a className="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link active" href="/about">About Me</a>
@@ -86,7 +86,7 @@ function App() {
         <Route exact path='/about' component={About}/>
         <Route exact path='/certifications' component={Certifications}/>
         <Route exact path='/education' component={Education}/>
-        <Route exact path='/mainportfolio' component={Header}/>
+        <Route exact path='/' component={Header}/>
         <Route exact path='/skills' component={Skills}/>
       </Switch>
     </>

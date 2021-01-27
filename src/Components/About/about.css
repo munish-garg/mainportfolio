@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
 .outer-container{
     background: url('../Header/images/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg') center no-repeat;
@@ -23,8 +24,9 @@
 }
 
 .content-skill > h4{
-    color: white;
+    color: yellow;
     text-align: center;
+    font-family: 'Lora', serif;
 }
 
 .content-skill > ul{

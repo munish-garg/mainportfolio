@@ -20,7 +20,7 @@ const Certifications = () =>{
                             <h4 className="vertical-timeline-element-title">Certification in Frontend Development</h4>
                             <h4 className="vertical-timeline-element-subtitle">(Coding Blocks)</h4>
                             <p>
-                            <a href="https://online.codingblocks.com/app/certificates/CBOL-70838-1ee6" target="_blank">Link for the certificate</a>
+                            <a href="https://drive.google.com/file/d/1TpOoMVJ6YKC239XN-_97JtpMxTpEAMWz/view?usp=sharing" target="_blank">Link for the certificate</a>
                             </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
@@ -34,7 +34,7 @@ const Certifications = () =>{
                             <h4 className="vertical-timeline-element-title">Certification in Backend Development using Django</h4>
                             <h4 className="vertical-timeline-element-subtitle">(Coding Blocks)</h4>
                             <p>
-                            <a href="https://online.codingblocks.com/app/certificates/CBOL-55370-5540" target="_blank">Link for certificate</a>
+                            <a href="https://drive.google.com/file/d/1HTGI7xHJ5sNNrwsqtO8iLnvDOhBhkXDZ/view?usp=sharing" target="_blank">Link for certificate</a>
                             </p>
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
